@@ -3,3 +3,7 @@
 *.exe
 *.mexw64
 *.mexw32
+*.mexmaci64
+*.mexmaci32
+*.mexa64
+*.mexa32

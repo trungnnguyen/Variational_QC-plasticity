@@ -1,1 +1,3 @@
-For description see /guide/guide.pdf
+Implementation of Variational QuasiContinuum methodology for lattice structures with isotropic hardening plasticity. Algorithm serves to demonstrate the examples presented in: O. Rokos, L. A. A. Beex, J. Zeman, and R. H. J. Peerlings. A variational formulation of dissipative quasicontinuum methods. International Journal of Solids and Structures, 102-103: 214 - 229, 2016.
+
+For a more detailed description of this implementation see /guide/guide.pdf.
