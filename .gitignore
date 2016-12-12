@@ -1,0 +1,5 @@
+# ignore any auxiliary files
+*.dll
+*.exe
+*.mexw64
+*.mexw32
