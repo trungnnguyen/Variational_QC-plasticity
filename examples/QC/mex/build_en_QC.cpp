@@ -29,7 +29,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs,
 	plhs[0] = mxCreateDoubleMatrix(1, 1, mxREAL);
 	double* prEn = mxGetPr(plhs[0]);
 	int i;
-	double En = 0;
+	double En = 0.0;
 	int NsAtoms = (int)mxGetNumberOfElements(prhs[1]);
 	int name_R = mxGetFieldNumber(prhs[0], "R");
 	int name_NeighbourList = mxGetFieldNumber(prhs[0], "NeighbourList");

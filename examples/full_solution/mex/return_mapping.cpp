@@ -96,7 +96,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs,
 						_Potential[1] *
 						pow((_Zc + _x) / _R, _Potential[3] - 1) / _R;
 					_dx = -_gx / _dgx;
-					_dx = std::max(double(0), _dx); // allow only for positive increments
+					_dx = std::max(0.0, _dx); // allow only for positive increments
 					_x += _dx;
 					if (_Niter == 1){
 						_normEps = fabs(_dx);

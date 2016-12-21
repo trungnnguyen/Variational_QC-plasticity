@@ -1,4 +1,4 @@
-%% RUN_uniform_loading: script for example in Section 5.1 (uniaxial loading test), full lattice
+%% RUN_uniform_loading: script for example in Section 5.1 (uniaxial loading test), full lattice solution
 
 %% Clear workspace
 clc; % clear command line

@@ -1,4 +1,4 @@
-%% RUN_pure_bending: script for example in Section 5.2 (pure bending test), full lattice
+%% RUN_pure_bending: script for example in Section 5.2 (pure bending test), full lattice solution
 
 %% Clear workspace
 clc; % clear command line

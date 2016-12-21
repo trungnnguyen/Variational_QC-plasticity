@@ -28,7 +28,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs,
 	plhs[0] = mxCreateDoubleMatrix(1, 1, mxREAL);
 	double* prDiss = mxGetPr(plhs[0]);
 	int i;
-	double Diss = 0;
+	double Diss = 0.0;
 	int NsAtoms = (int)mxGetNumberOfElements(prhs[1]);
 	int name_BondList = mxGetFieldNumber(prhs[0], "BondList");
 	int name_Potential = mxGetFieldNumber(prhs[2], "Potential");

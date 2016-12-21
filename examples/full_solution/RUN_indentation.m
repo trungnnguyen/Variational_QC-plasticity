@@ -1,4 +1,4 @@
-%% RUN_indentation: script for example in Section 5.3 (indentation test), full lattice
+%% RUN_indentation: script for example in Section 5.3 (indentation test), full lattice solution
 
 %% Clear workspace
 clc; % clear command line
